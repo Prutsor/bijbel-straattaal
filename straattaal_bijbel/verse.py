@@ -3,6 +3,9 @@ import requests
 FEED = "https://feed.dagelijkswoord.nl/api/json/1.0/"
 
 class Verse():
+    """ 
+        
+    """
     def __init__(self, language='bgt', day=0, username="", password=""):
         self.language = language
         self.day = day
@@ -13,7 +16,7 @@ class Verse():
 
     def __get(self) -> str:
         """
-            Get a the daily quot.
+            Get a the daily quote.
         """
         
         r = requests.get(FEED, auth=(self.username, self.password))
