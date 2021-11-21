@@ -11,7 +11,11 @@ class Verse():
 
         self.text = self.__get()
 
-    def __get(self):
+    def __get(self) -> str:
+        """
+            Get a the daily quot.
+        """
+        
         r = requests.get(FEED, auth=(self.username, self.password))
 
         return r.json()['data'][self.day]['text'][self.language]
