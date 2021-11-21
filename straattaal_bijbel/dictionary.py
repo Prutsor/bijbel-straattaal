@@ -1,10 +1,10 @@
 import validators
 import requests
 import os
-from verse import Verse
+from .verse import Verse
 
 class Dictionary:
-    def load(self, file='dictionary'):
+    def load(self, file:str='dictionary'):
         """
             Load the file that contains the meaning of certain words.
         """
