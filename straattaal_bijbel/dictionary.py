@@ -14,7 +14,6 @@ class Dictionary:
             self.__lines = self.__file.readlines()
         elif validators.url(file):
             self.__file = requests.get(file).text
-            print(self.__file)
             self.__lines = self.__file.splitlines()
         self.__dict = {}
 
