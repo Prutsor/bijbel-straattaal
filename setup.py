@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'straattaal_bijbel',         # How you named your package folder (MyLib)
   packages = ['straattaal_bijbel'],   # Chose the same as "name"
-  version = '84375823.3',      # Start with a small number and increase it with every change you make
+  version = '3490582904859234859023490238490823905829058029384092384098234098234.0',      # Start with a small number and increase it with every change you make
   license='Apache 2.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'TYPE YOUR DESCRIPTION HERE',   # Give a short description about your library
   author = 'God',                   # Type in your name
