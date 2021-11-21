@@ -1,5 +1,7 @@
 # straattaal-bijbel
 
+To make an account go to https://www.dagelijkswoord.nl/verspreiden/json-feed and scroll down until you see "API Key aanvragen".
+
 ## Example
 
 ```
