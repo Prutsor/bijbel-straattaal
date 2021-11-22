@@ -7,4 +7,7 @@ dictionary.load('dictionary')
 
 dictionary.apply(verse)
 
+tts = straattaal_bijbel.TextToSpeech()
+tts.say(verse, language="nl", slow=False)
+
 print(verse.text)
