@@ -10,7 +10,7 @@ from .verse import Verse
 class TextToSpeech():
     def __init__(self):
         self.__package = os.path.dirname(os.path.realpath(__file__))
-        self.__temp = os.path.join(self.__package, 'temp')
+        self.__temp = os.path.join(self.__package)
         self.__file = os.path.join(self.__temp, 'tts.mp3')
 
     def say(self, verse:Verse, language:str, slow:bool):
